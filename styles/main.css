@@ -7,6 +7,7 @@
 body {
   padding: 50px;
   background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #main-header {
@@ -15,18 +16,70 @@ body {
 }
 
 #main-header h1 {
+  font-size: 43px;
+  font-weight: 700;
   margin-bottom: 20px;
+  color: rgb(91, 178, 84);
+}
+
+#main-header h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+main {
+  text-align: center;
+}
+
+.generator-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .pw-generator-box {
   background: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid rgb(91, 178, 84);
 }
 
 .pw-generator-box h3 {
-  display: inline-block;
+  margin-right: 30px;
 }
 
-.pw-generator-box span {
-  border: 1px solid green;
+.pw-generator-box #password {
+  font-family: 'Orbitron', sans-serif;
+  border: 1px solid black;
+  color: rgb(91, 178, 84);
+  padding: 10px 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.pw-generator-box #password:hover {
+  color: darkgreen;
+}
+
+.pw-generator-box .copy-icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pw-generator-box .copy-icon:hover {
+  transform: scale(1.2);
+}
+
+.pw-generator-box #copy-clipboard {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+h6 {
+  text-align: center;
+  margin-bottom: 30px;
 }

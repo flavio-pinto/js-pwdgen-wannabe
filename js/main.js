@@ -13,3 +13,7 @@ console.log(color);
 // 4 - Generare password
 document.getElementById('your-pw-is').innerHTML = 'La tua password: ';
 document.getElementById('password').innerHTML =  name + surname + color + '20';
+
+
+// 5 - Copy to clipboard
+document.getElementById('copy-clipboard').innerHTML = 'Copia negli appunti!';
